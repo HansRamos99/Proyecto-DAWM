@@ -18,6 +18,7 @@
                 </ul> 
             </nav>
         </header>
+        <hr>
         <main>
             <section>
                 <article>
@@ -99,9 +100,43 @@
                     </p>
                     <audio src="media/audio.ogg" controls ></audio>
                     <form>
-                        <label>Sexo: </label>
-                        <input type="radio">
-                        <input type="radio">
+                        <p>
+                        <label for="sexo">Sexo: </label>
+                        Hombre <input type="radio" name="sexo"> Mujer <input type="radio" name="sexo">
+                        </p>
+                        
+
+                        <label for="SO">So que usa: </label>
+
+                        <select name="SO">
+                            <option value="windows">Windows</option>
+                            <option value="Linux">Otra distribucion de linux</option>
+                            <option value="MacOS">MacOS</option>
+                        </select>
+
+                        <p>
+                            <label for="TI">Trabaja TI: </label>
+                            Si <input type="radio" name="TI"> No <input type="radio" name="TI">
+                            <Label for="Framework">|  Framework que ha usado: </Label>
+                            <select name="framkework">
+                                <option value="react">React</option>
+                                <option value="django">Django</option>
+                                <option value="angular">Angular</option>
+                            </select>      
+                        </p>
+                        <p>
+                            <label for="ubicacion">Lugar donde reside: </label>
+                            Norte <input type="radio" name="ubicacion">
+                            Centro<input type="radio" name="ubicacion">
+                            Sur <input type="radio" name="ubicacion">
+                            fuera de GYE <input type="radio" name="ubicacion">
+                        </p>
+
+                        <label for="hobby">Escriba su hobby: </label>
+                        <textarea name="hobby" rows="4" cols="50">...
+                        </textarea>
+                        <br>
+                        <input type="submit">
 
                     </form>
 
@@ -111,13 +146,14 @@
             </section>
 
 
-
-
-
         </main>
+        <hr>
+
+        <footer>
+            <p>Hans Ramos</p>
+            <p><a href="mailto:hege@example.com">hempghans@gmail.com</a></p>
+        </footer>
 
     </body>
-
-
 
 </html>
