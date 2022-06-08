@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    text-align:center;
+    font-family: 'Open Sans';
+}
+header{
+    background-color: #f2f2f2;
+    padding:10px 0;
+
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color:#696969;
+    margin: 0 30px;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+
+nav a:hover{
+    background-color: black;
+    color: #fff;
+}
+
+.portada{
+    color:white;
+    text-align: center;
+    background-image: url(media/pixel.png);
+    background-size: contain;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.portada h1{
+    font-size: 3rem;
+    margin: 5 0 15 0;
+}
+.portada h2{
+    font-size: 2rem;
+    margin: 5 0 15 0;
+}
+.portada a{
+    text-decoration: none;
+    color:white;
+    margin-top: 7rem;
+    padding: 5px 15px;
+    border-radius: 30px;
+    background-color:transparent;
+
+}
+
