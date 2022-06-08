@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,400;1,500&display=swap');
 
 *{
     padding:0;
@@ -53,7 +54,53 @@ nav a:hover{
     margin-top: 7rem;
     padding: 5px 15px;
     border-radius: 30px;
-    background-color:transparent;
+}
+main{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.portada a:hover{
+    background-color: black;
+    color: #fff;
+}
+
+article h3,p{
+    margin:1em 0 1em 0;
+}
+article p{
+    font-family: 'Tai Heritage Pro', serif;
+    font-size: 20px;
+}
+
+section{
+    
+    margin-left:12em;
+    margin-right:12em;
+}
+
+table { font-family: «Lucida Sans Unicode», «Lucida Grande», Sans-Serif;
+    font-size: 12px; margin: 45px; width: 480px; text-align: left; border-collapse: collapse;
+    margin:0 auto;
+}
+    
+th { font-size: 13px; font-weight: normal; padding: 8px; background: #b9c9fe;
+    border-top: 4px solid #aabcfe; border-bottom: 1px solid #fff; color: #039; 
+}
+    
+td { padding: 8px; background: #e8edff; border-bottom: 1px solid #fff;
+    color: #669; border-top: 1px solid transparent; }
+
+.tr{
+    padding: 8px; background: #e8edff; border-bottom: 1px solid #fff;
+    color: black; border-top: 1px solid transparent; 
 
 }
+.list{
+    text-align: left;
+    padding-left: 14em;
+    padding-right: 14em;
+    
+
+}
+
 
