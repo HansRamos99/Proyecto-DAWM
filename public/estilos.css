@@ -11,8 +11,9 @@ body{
     font-family: 'Open Sans';
 
 }
-header{
+.jead{
     padding:10px 0;
+    background-color: #f2f2f2;
 
 }
 nav a{
@@ -30,7 +31,7 @@ nav a:hover{
 }
 
 .portada{
-    color:white;
+    color: white;
     text-align: center;
     background-image: url(media/pixel.png);
     background-size: contain;
@@ -69,9 +70,8 @@ main{
 }
 .container{
     position: sticky;
-    margin-left: 100px;
+    margin-left: 50px;
     top:40px;
-
 }
 
 .redes a, .btn-mas label{
@@ -157,9 +157,9 @@ td { padding: 8px; background: #e8edff; border-bottom: 1px solid #fff;
 
 }
 .list{
+    margin: 0px auto;
     text-align: left;
-    padding-left: 14em;
-    padding-right: 14em;
+    width: 50%;
 }
 
 .contenedor{
@@ -266,10 +266,11 @@ footer{
 
 }
 
+
+
 .container2 form{
     display:flex;
     text-align: left;
-    margin-left: 25px;
     align-items: center;
 }
 
@@ -362,4 +363,16 @@ footer{
         grid-gap:30px;
         padding: 35px 0px;
     }
+
+    main{
+        display:block;
+    }
+    .container{
+    display: none;
+    }
+    .container2{
+        display:flex;
+        margin: 0px auto;
+    }
+
 }
