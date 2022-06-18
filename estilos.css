@@ -1,17 +1,17 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,400;1,500&display=swap');
 
 *{
     padding:0;
     margin:0;
+    
 }
 
 body{
     text-align:center;
     font-family: 'Open Sans';
+
 }
 header{
-    background-color: #f2f2f2;
     padding:10px 0;
 
 }
@@ -55,23 +55,29 @@ nav a:hover{
     padding: 5px 15px;
     border-radius: 30px;
 }
+
 main{
     display:grid;
-    font-family: 'Open Sans', sans-serif;
     grid-template-columns: 15% 70% 15%;
+    background-color: #f2f2f2;
+    
 }
+
 
 #btn-mas{
     display: none;
 }
 .container{
-    position: fixed;
-    
+    position: sticky;
+    margin-left: 100px;
+    top:40px;
+
 }
+
 .redes a, .btn-mas label{
     display: block;
     text-decoration: none;
-    background: #cc2b2b;
+    background: black;
     color: #fff;
     width: 55px;
     height: 55px;
@@ -82,9 +88,21 @@ main{
     transition: all 500ms ease;
 }
 
-.redes a:hover{
+#fb:hover{
     background: #fff;
-    color: #cc2b2b;
+    color:blue;
+}
+#tw:hover {
+    background: #fff;
+    color:#51d1f6;
+}
+#yt:hover{
+    background: #fff;
+    color:red;
+}
+#ld:hover{
+    background: #fff;
+    color:blue;
 }
 .redes a{
     margin-bottom: -15px;
@@ -98,7 +116,7 @@ main{
 }
 .btn-mas label{
     cursor: pointer;
-    background: #f44141;
+    background: black;
     font-size: 23px;
 }
 #btn-mas:checked ~ .btn-mas label{
@@ -119,7 +137,6 @@ article p{
     font-family: 'Tai Heritage Pro', serif;
     font-size: 20px;
 }
-
 table { font-family: «Lucida Sans Unicode», «Lucida Grande», Sans-Serif;
     font-size: 12px; margin: 45px; width: 480px; text-align: left; border-collapse: collapse;
     margin:0 auto;
@@ -169,6 +186,7 @@ td { padding: 8px; background: #e8edff; border-bottom: 1px solid #fff;
     height: 100%;
     transition: all 500ms ease-out;
 }
+
 .contenedor figure .capa{
     position: absolute;
     top:0;
@@ -221,14 +239,127 @@ iframe{
 
 
 
+input, textarea{
+    outline:none;
+    
+}
+
+footer{
+    background-color: #696969;
+}
 
 
 
 
+.container2{
+    width: 70%;
+    border-radius: 6px;
+    margin: 0px auto;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.6);
+}
+.container2 header{
+ 
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
 
+}
 
+.container2 form{
+    display:flex;
+    text-align: left;
+    margin-left: 25px;
+    align-items: center;
+}
 
+.input-fields{
+    display:box;
+    margin:0.5rem;
+}
 
+#caja{
+    text-align: center;
+}
 
+#enviar {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
 
-
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}

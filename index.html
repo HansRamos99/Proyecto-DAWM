@@ -1,176 +1,230 @@
-<html>
-    <head>
-        <title>HR Software designer</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>HR Software designer</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    
+</head>
+<body>
 
-    <body>
-        <header>
-            <nav>
-                <a href="#">Acerca de mi</a>
-                <a href="#">Proyectos</a>
-                <a href="#">Sobre la carrera</a>
-            </nav>
-        </header>
-        <div class="portada">
-            <h1>Hans Ramos</h1>
-            <h2>Software developer</h2>   
-            <a href="#">Contáctame</a>  
+    <header>
+        <nav>
+            <a href="#acerca">Acerca de mi</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#sobre">Sobre la carrera</a>
+        </nav>
+    </header>
+    <div class="portada">
+        <h1>Hans Ramos</h1>
+        <h2>Software developer</h2>   
+        <a href="#fut">Contáctame</a>  
+    </div>
+
+
+    <main>
+    <section>
+    <div class="container">
+        <div class="btn-mas">
+            <label for="btn-mas" class="icon-plus"></label>
         </div>
-        
-        <hr>
-        <main>
-            <section>
-                <article>
-                    <h3 class="title">Acerca de mí.</h3>
-                         <p>Soy un estudiante de ingeniería en ciencias de la computación
-                             con diversos intereses relacionados a la programación y a la aplicación
-                             de la tecnología en dilemas sociales.
-                         </p>
-                         <div class="contenedor">
-                            <figure id="figure1">
-                                <img src="media/yo.JPEG" >
-                                <div class="capa">
-                                    <h2>Yo.</h2>
-                                    <p>Yo luego de terminar mi proyecto de estructuras de datos 👍</p>
-                                </div>
 
-                            </figure>
+        <input type="checkbox" id="btn-mas">
+        <div class="redes">
+            <a href="#" class="icon-facebook" id="fb"></a>
+            <a href="https://www.youtube.com/watch?v=mCdA4bJAGGk" class="icon-youtube" id="yt"></a>
+            <a href="#" class="icon-twitter" id="tw"></a>
+            <a href="#" class="icon-linkedin" id="ld"></a>
+        </div> 
+    </div>
+    </section>
+    <section>  
+        <article>  
+            <h3 class="title" id="acerca">Acerca de mí.</h3>
+                <p>Soy un estudiante de ingeniería en ciencias de la computación
+                     con diversos intereses relacionados a la programación y a la aplicación
+                     de la tecnología en dilemas sociales.
+                 </p>
+                 <div class="contenedor">
+                    <figure id="figure1">
+                        <img src="media/yo.JPEG" >
+                        <div class="capa">
+                            <h2>Yo.</h2>
+                            <p>Yo luego de terminar mi proyecto de estructuras de datos 👍</p>
+                        </div>
 
-                            <figure id="figure2">
-                                <img src="media/seguridad.PNG">
-                                <div class="capa">
-                                    <h2>Kali</h2>
-                                    <p>Vista principal del OS kali linux, una distribucion de linux que sirve para manejar temas
-                                    de cyberseguridad.
-                                    </p>
-                                </div>
-                            </figure>
-                         </div>
-                </article>
-                <article>
-                    <h3 class="title">Proyectos personales y académicos</h3>
-                    <p>Algunos proyectos que he realizado durante mi carrera universitaria son:</p>
-                    <div class="list">
-                        <ul>
-                            <li>Base de datos en mysql basada en twitter.</li>
-                            <li>Sistema para ordenar en un restaurante.</li>
-                            <li>Diseño de prototipado web para una red social local.</li>
-                            <li>Juego con interfaz gráfica en ensamblador basado en battleship.</li>       
-                        </ul>
-                        <br>
-                        <img src="media/groupWork.jpg" width="300" style="margin:0 auto ;">    
-                    </div>
-                </article>
-                <article>
-                    <h3 class="title">Ranking de materias en la carrera.</h3>
-                    <p>A continuación puede observar un ranking que hice de las diferentes materias que
-                        he cursado en la carrer, siendo 1 significando bajo o poco y 10 alto o mucho dependiendo
-                        de la característica que se este evaluando.
-                    </p>
-                    <table style="text-align:center;">
-                        <tr>
-                            <th>Materia</th>
-                            <th>Complejidad</th>
-                            <th>Tiempo dedicado</th>
-                            <th>Conocimientos adquiridos</th>
-                        </tr>
-                        <tr>
-                            <td class=>Prog. Sistemas</td>
-                            <td>9</td>
-                            <td>8</td>
-                            <td>8</td>
-                        </tr>
-                        <tr>
-                            <td>Diseño de software</td>
-                            <td>7</td>
-                            <td>7</td>
-                            <td>8</td>
-                        </tr>
-                        <tr>
-                            <td >Bases de datos</td>
-                            <td>8</td>
-                            <td>8</td>
-                            <td>9</td>
-                        </tr>
-                        <tr>
-                            <td >Estructuras de datos</td>
-                            <td>9</td>
-                            <td>9</td>
-                            <td>9</td>
-                        </tr>
+                    </figure>
 
-                    </table>
+                    <figure id="figure2">
+                        <img src="media/seguridad.PNG">
+                        <div class="capa">
+                            <h2>Kali</h2>
+                            <p>Vista principal del OS kali linux, una distribucion de linux que sirve para manejar temas
+                            de cyberseguridad.
+                            </p>
+                        </div>
+                    </figure>
+                 </div>
+        </article>
+        <article>
+            <h3 class="title" id="proyectos">Proyectos personales y académicos</h3>
+            <p>Algunos proyectos que he realizado durante mi carrera universitaria son:</p>
+            <div class="list">
+                <ul>
+                    <li>Base de datos en mysql basada en twitter.</li>
+                    <li>Sistema para ordenar en un restaurante.</li>
+                    <li>Diseño de prototipado web para una red social local.</li>
+                    <li>Juego con interfaz gráfica en ensamblador basado en battleship.</li>       
+                </ul>
+                <br>
+                <img src="media/groupWork.jpg" width="300" style="margin:0 auto ;">    
+            </div>
+        </article>
+        <article>
+            <h3 class="title" id="sobre">Ranking de materias en la carrera.</h3>
+            <p>A continuación puede observar un ranking que hice de las diferentes materias que
+                he cursado en la carrer, siendo 1 significando bajo o poco y 10 alto o mucho dependiendo
+                de la característica que se este evaluando.
+            </p>
+            <table style="text-align:center;">
+                <tr>
+                    <th>Materia</th>
+                    <th>Complejidad</th>
+                    <th>Tiempo dedicado</th>
+                    <th>Conocimientos adquiridos</th>
+                </tr>
+                <tr>
+                    <td class=>Prog. Sistemas</td>
+                    <td>9</td>
+                    <td>8</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Diseño de software</td>
+                    <td>7</td>
+                    <td>7</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td >Bases de datos</td>
+                    <td>8</td>
+                    <td>8</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td >Estructuras de datos</td>
+                    <td>9</td>
+                    <td>9</td>
+                    <td>9</td>
+                </tr>
 
-                </article>
-                <article>
-                    <h3 class="title">Otros hobbys.</h3>
-                    <p>Suelo jugar basket en el coliseo de la espol</p>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63792.073190722615!2d-80.02278120390919!3d-2.151934439262954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d73020a0f87f7%3A0x8d0052b1da66ea32!2sColiseo%20ESPOL!5e0!3m2!1ses!2sec!4v1654294704376!5m2!1ses!2sec" 
-                    width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </article>
-                <article>
-                    <h3 class="title">Encuesta personal.</h3>
-                    <p>Estoy haciendo una recopilación de datos varios acerca de las personas que visitan mi página,
-                        con el objetivo de procesar dichos datos para tener información y estadísticas con las cuales
-                        practicar, contesta el siguiente formulario si gustas.
-                    </p>
-                    <audio src="media/audio.ogg" controls ></audio>
-                    <form>
-                        <p>
+            </table>
+
+        </article>
+        <article>
+            <h3 class="title">Otros hobbys.</h3>
+            <p>Suelo salir a correr cerca de samanes los miercoles a las 8pm.</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63792.073190722615!2d-80.02278120390919!3d-2.151934439262954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d73020a0f87f7%3A0x8d0052b1da66ea32!2sColiseo%20ESPOL!5e0!3m2!1ses!2sec!4v1654294704376!5m2!1ses!2sec" 
+            width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </article>
+        <article>
+            <h3 class="title">Encuesta personal.</h3>
+            <p>Estoy haciendo una recopilación de datos varios acerca de las personas que visitan mi página,
+                con el objetivo de procesar dichos datos para tener información y estadísticas con las cuales
+                practicar, contesta el siguiente formulario si gustas.
+            </p>
+            <audio src="media/audio.ogg" controls ></audio>
+            <div class="container2">
+            <form>
+                <header>Ingreso de datos</header>
+                <div class="fields">
+                    <div class="input-fields">
                         <label for="sexo">Sexo: </label>
                         Hombre <input type="radio" name="sexo"> Mujer <input type="radio" name="sexo">
-                        </p>
-                        
 
-                        <label for="SO">So que usa: </label>
+                    </div>
+                <div class="input-fields">
+                    <label for="SO">SO que usa: </label>
+                    <select name="SO">
+                        <option value="windows">Windows</option>
+                        <option value="Linux">Otra distribucion de linux</option>
+                        <option value="MacOS">MacOS</option>
+                    </select>
+                </div>
 
-                        <select name="SO">
-                            <option value="windows">Windows</option>
-                            <option value="Linux">Otra distribucion de linux</option>
-                            <option value="MacOS">MacOS</option>
-                        </select>
+                <div class="input-fields">
+                    <label for="TI">Trabaja TI: </label> <br>
+                    Si <input type="radio" name="TI"> No <input type="radio" name="TI">
+                </div>
+                <div class="input-fields">
+                    <Label for="Framework">Framework que ha usado: </Label>
+                    <select name="framkework">
+                        <option value="react">React</option>
+                        <option value="django">Django</option>
+                        <option value="angular">Angular</option>
+                    </select>  
+                </div>    
+                
+                <div class="input-fields">
+                        <label for="ubicacion">Lugar donde reside: </label>
+                        Norte <input type="radio" name="ubicacion">
+                        Centro<input type="radio" name="ubicacion">
+                        Sur <input type="radio" name="ubicacion">
+                        fuera de GYE <input type="radio" name="ubicacion">
+                </div>
+                
+                <div class="input-fields">
+                    <label for="hobby">Escriba su hobby: </label>
+                    <textarea name="hobby" rows="4" cols="50">...
+                    </textarea>
+                    <br>
+                </div>
 
-                        <p>
-                            <label for="TI">Trabaja TI: </label>
-                            Si <input type="radio" name="TI"> No <input type="radio" name="TI">
-                            <Label for="Framework">|  Framework que ha usado: </Label>
-                            <select name="framkework">
-                                <option value="react">React</option>
-                                <option value="django">Django</option>
-                                <option value="angular">Angular</option>
-                            </select>      
-                        </p>
-                        <p>
-                            <label for="ubicacion">Lugar donde reside: </label>
-                            Norte <input type="radio" name="ubicacion">
-                            Centro<input type="radio" name="ubicacion">
-                            Sur <input type="radio" name="ubicacion">
-                            fuera de GYE <input type="radio" name="ubicacion">
-                        </p>
+                <div class="input-fields" id="caja">
+                    <input type="submit" id="enviar">
+                </div>
 
-                        <label for="hobby">Escriba su hobby: </label>
-                        <textarea name="hobby" rows="4" cols="50">...
-                        </textarea>
-                        <br>
-                        <input type="submit">
+              </div>
 
-                    </form>
+            </form>
+        </div>
 
-                </article>
+        </article>
 
 
-            </section>
+    </section>
 
+    </main>
 
-        </main>
-        <hr>
-
-        <footer>
-            <p>Hans Ramos</p>
-            <p><a href="mailto:hege@example.com">hempghans@gmail.com</a></p>
-        </footer>
-
-    </body>
-
+    <footer class="pie-pagina" id="fut">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="media/perro.jpeg">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>Sobre esta pagina web</h2>
+                <p>Esta página web fue realizada con el proposito de 
+                poder informar a las personas que la visitan sobre mi persona
+                de tal forma que conozcan aspectos relacionados a la carrera cómo a otras actividades.</p>
+            </div>
+            <div class="box">
+                <h2>SIGUEME</h2>
+                <div class="red-social">
+                    <a href="https://www.facebook.com/hans.ramos.752/" class="icon-facebook" target="_blank"></a>
+                    <a href="https://www.linkedin.com/in/hans-ramos-691548224/" class="icon-linkedin" target="_blank"></a>
+                    <a href="https://twitter.com/" class="icon-twitter" target="_blank"></a>
+                    <a href="https://www.youtube.com/channel/UC92LtcgjXNcwi5dGP3tgIXg" class="icon-youtube" target="_blank"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2022 <b>Hans Ramos</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+</body>
 </html>
