@@ -1,0 +1,34 @@
+Cosas por hacer:
+
+*Avanzar proyecto gym ♫ 70%
+
+*Examen de seguridad de la informacion
+*comenzar proyecto sistemas
+*comenzar proyecto dawm
+*terminar tu parte del primer sprint
+*estudiar dawm
+
+----Cosas no académicas-----------
+*comprar crema antiseptica y jabones para usar antes de dormir.
+
+*hablarle a melissa de forma de que hagas que le gustes.
+
+
+Nos quedamos en el problema de que el arduino no envia una senal 
+de serialAvailable al programa de java -----> solucionado.
+
+Ya puedo registrar una huella desde el programa de java.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
