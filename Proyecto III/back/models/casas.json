@@ -1,0 +1,26 @@
+{
+	"model": {
+		"type": "Object",
+		"value": {
+			"id": {
+				"type": "randomNumberBetween",
+                "value": [1, 50]
+			},
+			"fechaAlquiler": {
+				"type": "faker",
+				"value": "date.between",
+				"options": ["2015-01-02", "2022-12-29"]
+			},
+            "id_cliente":{
+                "type": "randomNumberBetween",
+                "value": [1, 100]
+            },
+            "comentario":{
+                    "type": "faker",
+                    "value": "lorem.paragraph"
+                  
+            }
+
+        }
+    }
+}
