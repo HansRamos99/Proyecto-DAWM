@@ -1,0 +1,74 @@
+------------------P R O Y E C T O S--------------------------------------
+*Ensayo sobre la mediocridad--------> en curso
+*Aplicacion de escritorio para el gym-----> en curso.
+
+1.- Proyecto gym.
+
+-------------------Planificación------------------------------------------
+
+Primer paso, realizar prototipo de las siguientes pantallas en javaFX.
+
+Pantalla 1 -> Pantalla de visualizacion del cliente. ♫
+Pantalla 2 -> Pantalla de visualizacion del administrador. ♫
+Crear interfaz para tomar fotos y guardarlas. ♫
+Crear interfaz registro de cliente.♫
+Crea ventana informacion cliente.♫
+crear la clase cliente ♫
+conectar las pantallas ♫
+elegir un formato por el cual guardar las fotos. ♫
+Hacer que cada cliente tenga una foto. ♫
+Hacer hilo para observar dos pantallas. ♫
+conectar la interfaz huella con la aplicación java. ♫
+Hacer que cada cliente tenga una huella. ♫
+hacer accesibles las fotos al la ventana de información. ♫
+Mejorar las letras de la ventana informacion ♫
+Conectar la base de datos al programa ♫
+ver como guardar los clientes.  ♫
+Guardar esta informacion en una base de datos. ♫
+Hacer visible la base de datos.♫
+Hacer que ventana editar cliente, edite enefecto el cliente seleccionado.♫
+Hacer que la edición del cliente tmb edite la base de datos.♫
+Hacer visible dicha edicion en todos los campos, luego de presionar modificar.♫
+Hacer que la aplicación responsa al insertar la huella de alguien.♫
+Configurar ventana cliente, que se vea foto cliente al poner huella ♫
+configurar la pantalla cliente. ♫
+
+Cosas por hacer:
+Programar la ventana cliente para que salga la fecha y si ha pagado o no.
+Tienes que hacer que cuando se presione la equis en ventana registro, tambien corte la conexion
+arduino.
+Ubicar aviso visual de proceso terminado al registrar huella
+Normalizar los inputs de registro.
+Normalizar inputs ventana admin.
+Tratar de solucionar problemas de inputs de un administrador
+Cambiar el sensor de la huella por uno con mas registros.
+encajar bien el circuito arduino con el sensor de huella.
+
+Ver como correr el programa en la compu de un tercero.
+
+Finalmente instalar el programa en la computadora de mi pana.
+
+-----------------Notas----------------------------------------------
+
+Primero es el stage-> luego es el scene
+
+primaryStage.setTitle("Hello World!");
+primaryStage.setScene(scene);
+primaryStage.show();
+
+Al parecer las ventanas se inicializan desde sus respectivas clases controller
+
+
+
+
+
+1.- Creamos un registro con el id pasado en la funcion.
+2.- en dicho registro solo colocamos en id y los bytes de la foto.
+3.- luego de tomar la foto, rellenamos los datos restantes del registro
+luego de presionar el boton "registrar".
+4.- En caso de no terminar el proceso de registrar un cliente y cerrar la 
+ventana emergente, deberemos borrar la fila donde esta ubicado el id 
+y el blob de la foto tomada.
+4.- fin.
+
+//Modificar la informacion para mostrar una foto.

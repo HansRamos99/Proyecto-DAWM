@@ -1,0 +1,11 @@
+select{
+    width: 25rem;
+    margin: 0 auto;
+}
+
+#contenedor{
+    display:flex;
+    justify-content: space-between;
+
+    row-gap: 2rem;
+}
